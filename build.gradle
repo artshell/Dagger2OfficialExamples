@@ -16,7 +16,7 @@ repositories {
 dependencies {
     testCompileOnly group: 'junit', name: 'junit', version: '4.12'
 
-    classpath 'net.ltgt.gradle:gradle-apt-plugin:0.13'
-    compileOnly 'com.google.dagger:dagger:2.13'
-    apt 'com.google.dagger:dagger-compiler:2.13'
+    classpath 'net.ltgt.gradle:gradle-apt-plugin:0.19'
+    compileOnly 'com.google.dagger:dagger:2.19'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.19'
 }
